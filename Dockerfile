@@ -1,5 +1,5 @@
-FROM pdouble16/bitbucket-pipeline-browsers:1.3_53.0.3_58_2.1.1
-MAINTAINER "Adrian Marinica"
+FROM pdouble16/bitbucket-pipeline-browsers:latest
+MAINTAINER "Ilie Ciotir"
 
 ENV NVM_DIR /usr/local/nvm
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
